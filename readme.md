@@ -1,4 +1,5 @@
-```mermaidflowchart TD
+```mermaid
+flowchart TD
   %% === Entry Points ===
   A[CI/CD Pipeline or Local Runner<br/>Selenium RemoteWebDriver] -->|Create session / WebDriver commands| R[Grid Router]
 
@@ -77,5 +78,4 @@
   M -.guides routing.-> R
   H -.scale down targets.-> BN
   CA -.scale in nodes.-> K8s
-
 ```
