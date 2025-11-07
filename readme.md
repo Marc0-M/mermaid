@@ -12,10 +12,6 @@ subgraph K8s_Grid [Selenium Grid on Kubernetes]
   subgraph Browser_Pods [Browser Nodes - pods by type]
     direction LR
     C[Chrome]
-    F[Firefox]
-    E[Edge]
-    O[Opera]
-    X[Other browsers]
   end
 end
 
