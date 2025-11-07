@@ -17,11 +17,11 @@ end
 
 
 A <-->|WebDriver HTTP| R
+R <-->|route to node| A
+R <-->|route to node| B
 R <-->|route to node| C
-R <-->|route to node| F
+R <-->|route to node| D
 R <-->|route to node| E
-R <-->|route to node| O
-R <-->|route to node| X
 
 %% --- Autoscaling path ---
 subgraph Autoscaling [Autoscaling]
