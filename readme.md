@@ -15,17 +15,6 @@ subgraph K8s_Grid [Selenium Grid on Kubernetes]
   end
 end
 
-D --> C
-D --> F
-D --> E
-D --> O
-D --> X
-
-C -->|session updates| M
-F -->|session updates| M
-E -->|session updates| M
-O -->|session updates| M
-X -->|session updates| M
 
 A <-->|WebDriver HTTP| R
 R <-->|route to node| C
